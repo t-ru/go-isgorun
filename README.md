@@ -1,4 +1,4 @@
-# Package procinfo
+# go-isgorun
 
 ## Description
 
