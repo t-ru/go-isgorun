@@ -71,7 +71,7 @@ func main() {
 }
 
 func isGoRun() bool {
-	pi := procinfo.New(os.Getpid())
+	pi, _ := procinfo.New(os.Getpid())
 
 	return pi.ParentProcessIsGoRun()
 }

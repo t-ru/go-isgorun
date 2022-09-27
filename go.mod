@@ -2,7 +2,7 @@ module isgorun
 
 go 1.19
 
-require github.com/t-ru/go-utils v0.0.0-20220927120416-1c691bcf6939
+require github.com/t-ru/go-utils v1.3.1
 
 require (
 	github.com/go-ole/go-ole v1.2.6 // indirect
